@@ -23,11 +23,11 @@ JackTheLogger will automatically install the required libraries (`psutil`, `term
 ## Usage
 
 1. Clone the repository or download the `main.py` file.
-2. Open a terminal or command prompt and navigate to the directory containing `dll_monitor.py`.
+2. Open a terminal or command prompt and navigate to the directory containing `main.py`.
 3. Run the script:
 
     ```bash
-    python main.py
+    python3 main.py
     ```
 
 4. When prompted, enter the name of the process you want to monitor (including the extension, e.g., `example.exe`).
@@ -37,7 +37,7 @@ JackTheLogger will automatically install the required libraries (`psutil`, `term
 ## Example
 
 ```bash
-$ python main.py
+$ python3 main.py
 Process name (Including extension): example.exe
 Looking for example.exe...
 Found example.exe with PID 1234. Monitoring DLLs...
